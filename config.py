@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("17950436"))
+API_HASH = os.getenv("9d8ae4d35b1106df910b94dcaf73d346")
+BOT_TOKEN = os.getenv("8061949545:AAE0mD5UPip6fyvxlZ4S-t58uuKtAutfd50")
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
