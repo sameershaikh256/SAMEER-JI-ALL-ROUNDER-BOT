@@ -3,7 +3,7 @@ from config import BOT_TOKEN, API_ID, API_HASH, CHANNEL_ID
 from downloader import download_video
 from uploader import upload_to_telegram
 
-bot = Client("sameer_bot", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
+bot = Client("8061949545:AAE0mD5UPip6fyvxlZ4S-t58uuKtAutfd50", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
 
 @bot.on_message(filters.private & filters.command("start"))
 async def start_handler(client, message):
